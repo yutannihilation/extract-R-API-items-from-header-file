@@ -1,3 +1,5 @@
+// Copied from libR-sys
+
 #include <stddef.h> // for ptrdiff_t
 
 // R_xlen_t is defined as int on 32-bit platforms, and
@@ -29,6 +31,3 @@ typedef ptrdiff_t R_xlen_t_rust;
 #include <R_ext/Rdynload.h>
 #include <R_ext/Altrep.h>
 #include <R_ext/GraphicsEngine.h>
-
-
-void main() {}
