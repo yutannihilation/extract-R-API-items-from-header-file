@@ -1,5 +1,7 @@
 # extract-R-API-items-from-header-file
 
+(The result is still incorrect as `gcc -E` blow away macro constants. I need to dive into clnag world...)
+
 ``` pwsh
 # Assuming I'm on bash of Rtools40
 export PATH="/ucrt64/bin/:${PATH}"
